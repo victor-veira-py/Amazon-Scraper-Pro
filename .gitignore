@@ -1,0 +1,20 @@
+# Entorno Virtual / Virtual Environment
+venv/
+ENV/
+env/
+
+# Configuraciones de PyCharm / IDE Configurations
+.idea/
+.vscode/
+
+# Archivos de Datos Locales / Local Data Files (Evita duplicados en GitHub)
+data/amazon_monitor.db
+data/Reporte_Amazon_Busqueda.xlsx
+data/grafica_precios_amazon.png
+
+# Secretos y Credenciales / Secrets and Credentials
+.env
+
+# Caché de Python / Python Cache
+__pycache__/
+*.pyc
